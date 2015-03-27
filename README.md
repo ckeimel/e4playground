@@ -1,1 +1,1 @@
-# e4playground
+E4 RCP Test Projects and Playground
