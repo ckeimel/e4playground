@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_YhWJYWgnEeWTG5LFe6l0fw" elementId="org.eclipse.e4.application" bindingContexts="_YhWJYGgnEeWTG5LFe6l0fw">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_36iZ0GgnEeWTG5LFe6l0fw" elementId="de.emsw.e4.test.iconfont.app.trimmedwindow.0">
+    <mainMenu xmi:id="_5iX6UGgnEeWTG5LFe6l0fw" elementId="de.emsw.e4.test.iconfont.app.menu.0">
+      <children xsi:type="menu:Menu" xmi:id="_6nRF0GgnEeWTG5LFe6l0fw" elementId="de.emsw.e4.test.iconfont.app.menu.file" label="File">
+        <children xsi:type="menu:DirectMenuItem" xmi:id="_8DRJwGgnEeWTG5LFe6l0fw" elementId="de.emsw.e4.test.iconfont.app.directmenuitem.exit" label="Exit" iconURI="icon://FontAwesome:fa-bomb?providerName=fx.iconprovider" contributionURI="bundleclass://de.emsw.e4.test.iconfont.app/de.emsw.e4.test.iconfont.handler.ExitHandler"/>
+      </children>
+    </mainMenu>
+    <trimBars xmi:id="_LjEDIGgpEeWTG5LFe6l0fw" elementId="de.emsw.e4.test.iconfont.app.trimbar.0">
+      <children xsi:type="menu:ToolBar" xmi:id="_L0OroGgpEeWTG5LFe6l0fw" elementId="de.emsw.e4.test.iconfont.app.toolbar.0">
+        <tags>fillspace</tags>
+        <children xsi:type="menu:ToolControl" xmi:id="_NKxn0GgpEeWTG5LFe6l0fw" elementId="de.emsw.e4.test.iconfont.app.toolcontrol.0" contributionURI="bundleclass://de.emsw.e4.test.iconfont.app/de.emsw.e4.test.iconfont.ui.FontIconToolControl">
+          <tags>Container:HBox</tags>
+        </children>
+      </children>
+    </trimBars>
+  </children>
+  <rootContext xmi:id="_YhWJYGgnEeWTG5LFe6l0fw" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_YhWJYmgnEeWTG5LFe6l0fw" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_YhWJY2gnEeWTG5LFe6l0fw" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <addons xmi:id="_YhWJZGgnEeWTG5LFe6l0fw" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_YhWJZWgnEeWTG5LFe6l0fw" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_YhWJZmgnEeWTG5LFe6l0fw" elementId="org.eclipse.fx.ui.keybindings.e4.service" contributionURI="bundleclass://org.eclipse.fx.ui.keybindings.e4/org.eclipse.fx.ui.keybindings.e4.BindingServiceAddon"/>
+  <addons xmi:id="_YhWJZ2gnEeWTG5LFe6l0fw" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_YhWJaGgnEeWTG5LFe6l0fw" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_YhWJaWgnEeWTG5LFe6l0fw" elementId="org.eclipse.fx.ui.keybindings.e4.model" contributionURI="bundleclass://org.eclipse.fx.ui.keybindings.e4/org.eclipse.fx.ui.keybindings.e4.BindingProcessingAddon"/>
+  <addons xmi:id="_YhWJamgnEeWTG5LFe6l0fw" elementId="org.eclipse.e4.ui.workbench.addons.HandlerProcessingAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+</application:Application>
