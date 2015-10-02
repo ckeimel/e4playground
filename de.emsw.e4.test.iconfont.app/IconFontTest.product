@@ -16,7 +16,6 @@
    <windowImages/>
 
    <plugins>
-      <plugin id="at.bestolution.efxclipse.icons.fontawsome"/>
       <plugin id="com.google.guava"/>
       <plugin id="com.ibm.icu"/>
       <plugin id="de.emsw.e4.test.iconfont.app"/>
